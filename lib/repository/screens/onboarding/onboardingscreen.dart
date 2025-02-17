@@ -14,7 +14,7 @@ class OnBoardingScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Theme.of(context).brightness == Brightness.dark
             ? AppColors.scaffolddark
-            : AppColors.scaffolddark,
+            : AppColors.scaffoldlight,
         actions: [
           IconButton(
               onPressed: () {
